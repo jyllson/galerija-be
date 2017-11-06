@@ -18,7 +18,7 @@ class CreateGalleriesTable extends Migration
             $table->string('name');
             $table->string('desc');
             $table->text('url_list');
-            $table->timestamps()->useCurrent();
+            $table->timestamps();
         });
     }
 
